@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UJV</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js"></script>
+  </head>
+
+  <body>
+    <main class="contenedor">
+      <section class="top">
+        <h1>My Trips</h1>
+
+        <button class="crear"><img src="assets/Plus.svg" /> Create</button>
+      </section>
+      <p id="txt"></p>
+
+      <div class="barra-sup">
+        <input
+          type="text"
+          placeholder="Search by Client or Trip Name"
+          class="buscar"
+        />
+        <div class="filtro">
+          <label for="status-filtro">Status</label>
+          <select id="status-filtro">
+            <option>All</option>
+            <option>Quoting</option>
+            <option>Active Booking</option>
+            <option>Traveled</option>
+          </select>
+        </div>
+      </div>
+      <table>
+        <thead>
+          <tr>
+            <th>Trip Name</th>
+            <th>Client Name</th>
+            <th>Travel Dates</th>
+            <th>Total Amount</th>
+            <th>Status</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>New Trip</td>
+            <td>-</td>
+            <td>May 24, 2025 - Jul 22, 2025</td>
+            <td><strong>$13,959.49</strong></td>
+            <td><span class="quoting">Quoting</span></td>
+            <td>
+              <a><img src="assets/border_color.svg" alt="" /></a>
+              <a><img class="tash" src="assets/4812459.png" alt="" /></a>
+            </td>
+          </tr>
+
+          <tr>
+            <td>Honeymoon Miami</td>
+            <td>Bob Jones</td>
+            <td>May 24, 2025 - Jul 22, 2025</td>
+            <td><strong>$13,959.49</strong></td>
+            <td><span class="active">Active Booking</span></td>
+            <td>
+              <a><img src="assets/border_color.svg" alt="" /></a>
+              <a><img class="tash" src="assets/4812459.png" alt="" /></a>
+            </td>
+          </tr>
+
+          <tr>
+            <td>New Trip</td>
+            <td>-</td>
+            <td>May 24, 2025 - Jul 22, 2025</td>
+            <td><strong>$13,959.49</strong></td>
+            <td><span class="quoting">Quoting</span></td>
+            <td>
+              <a><img src="assets/border_color.svg" alt="" /></a>
+              <a><img class="tash" src="assets/4812459.png" alt="" /></a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </main>
+  </body>
+</html>
