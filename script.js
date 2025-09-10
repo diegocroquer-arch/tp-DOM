@@ -15,13 +15,14 @@ close_create.addEventListener("click", function (e) {
 //cerrar modal//
 
 // agregar trip //
-let add_trip = document.querySelector(".create-button");
-let table = document.querySelector(".table-trips");
+let add_trip = document.getElementById("create-button");
+let table = document.getElementById("table-trips");
 let name_trip = document.getElementById("name-trip-input");
 
 add_trip.addEventListener("click", function (e) {
   let texto = name_trip.value;
   if (texto !== "") {
+    console.log(texto);
     let fila = document.createElement("tr");
     let celda = document.createElement("td");
     celda.textContent = texto;
