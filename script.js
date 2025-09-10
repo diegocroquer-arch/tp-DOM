@@ -25,8 +25,8 @@ add_trip.addEventListener("click", function (e) {
     let fila = document.createElement("tr");
     let celda = document.createElement("td");
     celda.textContent = texto;
-    fila.appendChild(celda);
     table.appendChild(fila);
+    fila.appendChild(celda);
     name_trip.value = "";
   } else {
     document.getElementById("window-notice").style.display = "none";
