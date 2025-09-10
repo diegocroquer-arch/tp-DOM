@@ -66,6 +66,24 @@ tr td {
   display: none;
   position: fixed;
   z-index: 999;
+  font-family: Hind;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+}
+
+.titel-modal {
+  font-family: Cardo;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 25px;
+  line-height: 150%;
+  letter-spacing: 0.15px;
+  text-align: left;
+  margin-bottom: 32px;
 }
 
 .window-notice .content {
