@@ -44,6 +44,7 @@
           </select>
         </div>
       </div>
+      <!-- tabla -->
       <table>
         <thead>
           <tr>
@@ -56,31 +57,7 @@
           </tr>
         </thead>
 
-        <tbody>
-          <tr>
-            <td>New Trip</td>
-            <td>-</td>
-            <td>May 24, 2025 - Jul 22, 2025</td>
-            <td><strong>$13,959.49</strong></td>
-            <td><span class="quoting">Quoting</span></td>
-            <td>
-              <a><img src="assets/border_color.svg" alt="" /></a>
-              <a><img class="tash" src="assets/4812459.png" alt="" /></a>
-            </td>
-          </tr>
-
-          <tr>
-            <td>Honeymoon Miami</td>
-            <td>Bob Jones</td>
-            <td>May 24, 2025 - Jul 22, 2025</td>
-            <td><strong>$13,959.49</strong></td>
-            <td><span class="active">Active Booking</span></td>
-            <td>
-              <a><img src="assets/border_color.svg" alt="" /></a>
-              <a><img class="tash" src="assets/4812459.png" alt="" /></a>
-            </td>
-          </tr>
-
+        <tbody id="table-trips">
           <tr>
             <td>New Trip</td>
             <td>-</td>
@@ -94,6 +71,8 @@
           </tr>
         </tbody>
       </table>
+      <!-- tabla -->
+
       <!---  modal   -->
       <div class="window-notice" id="window-notice">
         <div class="content">
@@ -106,7 +85,7 @@
                   class="name-trip"
                   type="text"
                   name=""
-                  id=""
+                  id="name-trip-input"
                   placeholder="Honeymoon Miami"
                 />
               </label>
