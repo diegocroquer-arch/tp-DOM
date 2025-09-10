@@ -56,7 +56,7 @@ tr td {
 .tash {
   width: 17px;
 }
-/*  */
+/* modal */
 .window-notice {
   background: rgba(33, 41, 52, 0.85);
   left: 0;
@@ -84,6 +84,9 @@ tr td {
   letter-spacing: 0.15px;
   text-align: left;
   margin-bottom: 32px;
+  width: 213;
+  height: 38;
+  opacity: 1;
 }
 
 .window-notice .content {
@@ -102,5 +105,60 @@ tr td {
   padding: 2rem;
   font-size: 1.3rem;
 }
+legend {
+  margin-bottom: 8px;
+  width: 557;
+  height: 20;
+  opacity: 1;
+}
+.name-trip {
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  margin-bottom: 32px;
+  width: 533;
+  height: 20;
+  opacity: 1;
+}
 
-/*  */
+.cancel-button {
+  border: 1px solid #bdbdbd;
+  border-radius: 2px;
+  color: #000000;
+  text-decoration: none;
+  text-align: center;
+  font-family: Hind;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.1px;
+  padding: 10px 16px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.create-button {
+  background: #e2ee33;
+  border-radius: 2px;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Hind;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.1px;
+  padding: 10px 16px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.content-buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 32px;
+}
+
+/* modal */
